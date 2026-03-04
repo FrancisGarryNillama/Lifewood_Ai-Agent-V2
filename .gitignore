@@ -1,0 +1,45 @@
+# --- Dependencies ---
+node_modules/
+jspm_packages/
+venv/
+env/
+ENV/
+.venv/
+
+# --- Databases ---
+# You currently have db.sqlite3 in your backend folder; don't track it!
+*.sqlite3
+*.db
+
+# --- Environment Variables ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# --- Python / Django ---
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+# Django media and static uploads
+/media
+/static
+
+# --- Build & Testing ---
+/build
+/dist
+/coverage
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

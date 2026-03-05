@@ -4,7 +4,6 @@ import json
 from datetime import datetime, date
 from decimal import Decimal, InvalidOperation
 
-
 class ReceiptStoreTool(BaseTool):
     name = "ReceiptStoreTool"
     description = "Stores a validated receipt JSON into the database."
